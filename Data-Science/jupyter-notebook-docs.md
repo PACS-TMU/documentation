@@ -34,11 +34,17 @@ Since we run cell-by-cell in Jupyter, it is much more convenient to utilize keyb
 | :-: | :-: | :-: |
 | `M` | Converts cell to markdown cell | The cell (not text-editing space) must be selected, i.e., you must press outside the text box |
 | `Y` | Converts cell to code cell | The cell (not text-editing space) must be selected, i.e., you must press outside the text box |
-| `A` | Insert cell above current cell and select it | The cell (not text-editing space) must be selected, i.e., you must press outside the text box |
-| `B` | Insert cell below current cell and select it | The cell (not text-editing space) must be selected, i.e., you must press outside the text box |
+| `DD` | Delete the current cell | This command is pressing the `D` key twice. The cell (not text-editing space) must be selected, i.e., you must press outside the text box |
 | `Shift + Enter` | Run current cell and move to next cell | If there is no cell below, one is created, otherwise, next cell is selected |
 | `Ctrl + Enter` | Run current cell without moving the cursor | - |
 | `Ctrl + S` | Save and create a checkpoint | Jupyter Notebook has autosave by default, but we can save at any time using this |
+
+
+Some Less common commands:
+| Keyboard Shortcut | Utilization | Notes |
+| :-: | :-: | :-: |
+| `A` | Insert cell above current cell and select it | The cell (not text-editing space) must be selected, i.e., you must press outside the text box |
+| `B` | Insert cell below current cell and select it | The cell (not text-editing space) must be selected, i.e., you must press outside the text box |
 
 There are many more shortcuts that Jupyter Notebook has, those can be found by selecting the `Help` menu followed `Show Keyboard Shortcuts`, or by pressing `Ctrl + Shift + H`.
 
