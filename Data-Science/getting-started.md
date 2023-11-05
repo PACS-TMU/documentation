@@ -4,48 +4,84 @@
 This documentation is going to cover all the necessary installations to start using Data Science in PACS.
 
 ## Section 1: Installing Python 3
-### Check if you already have python:
-1.  - On Windows, open command prompt
-    - On MacOS, open terminal
-2.  - On Windows, type
-      
-      ```
-      python --version
-      ```
-    - On MacOS, type
+1. Check if you already have python:
+   <br />
+   <details>
+	<summary>For Windows</summary>
 
-      ```
-      python3 --version
-      ```
+ 	<br />
+
+   	Open Command Prompt
+   
+ 	<br />
+ 
+    </details>
+    <details>
+	<summary>For MacOS</summary>
+
+ 	<br />
+
+   	Open Terminal
+   
+ 	<br />
+ 
+    </details>
+2. Check your Python version:
+   <br />
+   <details>
+	<summary>For Windows</summary>
+
+ 	<br />
+
+   	>In your command prompt, type:
+   
+ 	<br />
+  
+	```
+	python --version
+	```
+ 
+    </details>
+    <details>
+	<summary>For MacOS</summary>
+
+ 	<br />
+
+   	>In your terminal, type:
+   
+ 	<br />
+  
+	```
+	python3 --version
+	```
+ 
+     </details>
+
 3. Check the output:
     - If the output says `Python 3.XX.X`, python is already installed. You can proceed to [Section 2](#section-2-installing-pycharm-or-other-ide).
     - If the output says `Python 2.XX.X` or `python is not recognized` (or a message along those lines), python is not installed. Proceed to the windows installation below.
 
-What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-Where can I get some?
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-
-5
-	paragraphs
-	words
-	bytes
-	lists
-	Start with 'Lorem
-ipsum dolor sit amet...'
-
+4. Installing Python 3:
+    - For Windows,
+        - Follow the link to the <a href="https://www.python.org/downloads/windows/" target="_blank">official python Windows releases</a>
+    - For MacOS,
+        - Follow the link to the <a href="https://www.python.org/downloads/macos/" target="_blank">official python MacOS releases</a>
+    - Select the latest Stable Release
+    - For Windows,
+        - Scroll to the bottom and select `Windows installer (32-bit)` or `Windows installer (64-bit)`, depending on your Windows system (64-bit is usually more common)
+    - For MacOS,
+    	- Scroll to the bottom and select `macOS 64-bit universal2 installer`
+    - After the installer download is complete, open it and go through the installation steps
+    - If asked to add Python to PATH, select that option.
 
 ## Section 2: Installing PyCharm (or other IDE) 
+Some common IDEs used for Python projects are:
+- <a href="https://www.jetbrains.com/help/pycharm/installation-guide.html" target="_blank">PyCharm (recommended)</a>
+- <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code (VSCode)</a>
+- <a href="https://docs.spyder-ide.org/3/installation.html" target="_blank">Spyder</a>
+- and many more...
+
+For Data Science purposes, we will mainly be using Jupyter Notebook. However, we strongly recommend PyCharm as your day-to-day IDE for Python projects and scripts. Follow the links above to install the IDE of your choice.
 
 ## Section 3: Installing `NumPy` and `pandas` - pip
 
