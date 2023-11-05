@@ -5,7 +5,7 @@ This documentation covers how to start Jupyter Notebook and a few basic commands
 
 ## Quick Links
 #### [Creating and Running a Notebook](#creating-and-running-a-notebook)
-<a href="#key-shorts"><h4>Common Keyboard Shortcuts</h4></a>
+#### [Common Keyboard Shortcuts](#common-keyboard-shortcuts)
 
 ## Creating and Running a Notebook
 - Navigate to the folder/directory you want to create your Jupyter Notebook in
@@ -21,8 +21,7 @@ This documentation covers how to start Jupyter Notebook and a few basic commands
 - Select `Notebook` from the drop-down menu
 - This should open a new tab with your notebook
 
-<h2 id="key-shorts">Common Keyboard Shortcuts</h2>
-
+## Common Keyboard Shortcuts
 We use Jupyter Notebook because it allows us to use markdown cells for describing and analyzing our findings, as well as code cells to run our Python code. Jupyter runs each cell separately usually, unless it is clearly instructed to *Restart the kernel and run all cells* (the button that looks like `▶︎▶︎`).
 
 >Sometimes, running code cells multiple times might impact the data you're processing in your notebook. To avoide such a problem, when editing code blocks that have been previously executed (especially when other blocks have been executed since), it is recommended to restart the kernet and run all cells (i.e., press the `▶︎▶︎` button).
