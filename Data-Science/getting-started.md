@@ -18,7 +18,7 @@ This documentation is going to cover all the necessary installations to start us
       python3 --version
       ```
 3. Check the output:
-    - If the output says `Python 3.XX.X`, python is already installed. You can proceed to [Section 2](#section-2).
+    - If the output says `Python 3.XX.X`, python is already installed. You can proceed to [Section 2](#section-2-installing-pycharm-or-other-ide).
     - If the output says `Python 2.XX.X` or `python is not recognized` (or a message along those lines), python is not installed. Proceed to the windows installation below.
 
 What is Lorem Ipsum?
@@ -45,8 +45,7 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 ipsum dolor sit amet...'
 
 
-## Section 2
-: Installing PyCharm (or other IDE) 
+## Section 2: Installing PyCharm (or other IDE) 
 
 ## Section 3: Installing `NumPy` and `pandas` - pip
 
