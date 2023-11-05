@@ -84,7 +84,92 @@ Some common IDEs used for Python projects are:
 For Data Science purposes, we will mainly be using Jupyter Notebook. However, we strongly recommend PyCharm as your day-to-day IDE for Python projects and scripts. Follow the links above to install the IDE of your choice.
 
 ## Section 3: Installing `NumPy` and `pandas` - pip
+`NumPy` and `pandas` are the main Python libraries used for numerical analysis and data science. They increase the efficiency of the Python code we run, all while providing built-in functions that make analysis and data processing a lot easier. `pip` is a package installer that comes with Python, and we use it to download these libraries. If Python is installed correctly, pip can be used.
+<details>
+    <summary>For Windows</summary>
 
-## Section 4: Installing Jupyter Notebook
+- Open Command Prompt
 
-<sup style="display: inline-block;">**Note:** Moving forward, basic knowledge of python is required (conditionals, loops, etc.).</sup>
+- To install NumPy:
+
+```
+pip install numpy
+```
+or
+```
+python -m pip install numpy
+```
+
+- To install pandas:
+```
+pip install pandas
+```
+or
+```
+python -m pip install pandas
+```
+    
+</details>
+
+<details>
+    <summary>For MacOS</summary>
+
+- Open Terminal
+
+- To install NumPy:
+
+```
+pip3 install numpy
+```
+
+- To install pandas:
+```
+pip3 install pandas
+```
+
+</details>
+
+
+## Section 4: Installing and Running Jupyter Notebook
+Jupyter Notebook is going to be the main interface we use for Data Science at PACS. We use it because it allows us to insert markdown cells and code cells separately. Markdown cells are usually utilized to draw conclusions and analyze the code blocks we run, while the constant feedback for each code cell helps us keep track.
+<details>
+    <summary>For Windows</summary>
+
+- Open Command Prompt
+
+- To install Jupyter Notebook:
+
+```
+pip install jupyter notebook
+```
+or
+```
+python -m pip jupyter notebook
+```
+    
+</details>
+
+<details>
+    <summary>For MacOS</summary>
+
+- Open Terminal
+
+- To install NumPy:
+
+```
+pip3 install jupyter notebook
+```
+
+</details>
+
+#### To run Jupyter Notebook
+- Create a new folder where you want to create your notebook for data processing
+- Open your terminal/command prompt for that directory
+- Run
+```
+jupyter notebook
+```
+- A new tab will open in your default browser. In that tab, create a new notebook
+- When the notebook starts, you're good to go! You can start using Jupyer Notebook to process data.
+
+<sup style="display: inline-block;">**Note:** Moving forward, basic knowledge of python is required (conditionals, logic operators, loops, etc.).</sup>
