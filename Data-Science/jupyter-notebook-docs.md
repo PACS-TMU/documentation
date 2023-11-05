@@ -4,8 +4,8 @@
 This documentation covers how to start Jupyter Notebook and a few basic commands to get you started with the interface.
 
 ## Quick Links
-#### [Creating and Running a Notebook](#creating-and-running-a-notebook)
-#### [Common Keyboard Shortcuts](#common-keyboard-shortcuts)
+#### [Creating and Running a Notebook](#creating-and-running-a-notebook-1)
+#### [Common Keyboard Shortcuts](#common-keyboard-shortcuts-1)
 
 ## Creating and Running a Notebook
 - Navigate to the folder/directory you want to create your Jupyter Notebook in
