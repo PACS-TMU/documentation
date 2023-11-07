@@ -1,7 +1,6 @@
 # Jupyter Notebook Docs - Getting Started
+<sup style="display: inline-block;">🕗 10-minute read.</sup> <br/>
 <sup style="display: inline-block;">**Note:** This document is meant for internal PACS use only.</sup>
-
-<sup style="display: inline-block;">10-minute read.</sup>
 
 This documentation covers how to start Jupyter Notebook and a few basic commands to get you started with the interface.
 
