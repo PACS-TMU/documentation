@@ -4,6 +4,12 @@
 
 This documentation is going to cover all the necessary installations to start using Data Science in PACS.
 
+## Quick Links
+#### [Installing Python 3](#section-1-installing-python-3)
+#### [Installing PyCharm or Other IDE](#section-2-installing-pycharm-or-other-ide)
+#### [Installing NumPy and Pandas - pip](#section-3-installing-numpy-and-pandas---pip)
+#### [Installing and Running Jupyter Notebook](#section-4-installing-and-running-jupyter-notebook)
+
 ## Section 1: Installing Python 3
 1. Check if you already have python:
    <br />
