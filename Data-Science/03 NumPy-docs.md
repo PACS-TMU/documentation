@@ -13,13 +13,13 @@ NumPy is the fundemental library for numerical and scientific computation in Pyt
 
 ## Importing NumPy - Creating your First NumPy Array
 To import NumPy, we can add the following line of code at the top of our Python file:
-```
+```python
 import numpy as np
 ```
 >Note: The import statement above only works if you have installed NumPy. To install NumPy, follow the tutorial in the <a href="https://github.com/PACS-TMU/documentation/blob/main/Data-Science/00%20getting-started.md#section-3-installing-numpy-and-pandas---pip" target="_blank">getting started doc</a>.
 
 To create our first NumPy ndarray, we can run the following:
-```
+```python
 import numpy as np
 
 arr = np.array([1,2,3,4,5])
@@ -29,58 +29,80 @@ print(type(arr))
 ```
 
 The expected output is:
-```
+```python
 [1 2 3 4 5]
 <class 'numpy.ndarray'>
 ```
 
 When using NumPy, we usually work with multi-dimensional arrays. Therefore, it's helpful to see how we can create NumPy arrays of different dimensions.
 
-### 0-D Arrays
-```
-import numpy as np
+<details>
+  <summary><h3>0-D Arrays</h3></summary>
 
-arr = np.array(42)
+  ```python
+  import numpy as np
+  
+  arr = np.array(42)
+  
+  print(arr)
+  ```
+  
+</details>
 
-print(arr)
-```
+<details>
+  <summary><h3>1-D Arrays</h3></summary>
 
-### 1-D Arrays
-```
-import numpy as np
+  ```python
+  import numpy as np
+  
+  arr = np.array([4, 3, 5, 7])
+  
+  print(arr)
+  ```
+  
+</details>
 
-arr = np.array([4, 3, 5, 7])
+<details>
+  <summary><h3>2-D Arrays</h3></summary>
 
-print(arr)
-```
+  ```python
+  import numpy as np
+  
+  arr = np.array([[1, 2, 3, 4, 5],
+                  [4, 2, 6, 7, 8],
+                  [1, 4, 7, 8, 3]])
+  
+  print(arr)
+  ```
+  
+</details>
 
-### 2-D Arrays
-```
-import numpy as np
+<details>
+  <summary><h3>3-D Arrays</h3></summary>
 
-arr = np.array([[1, 2, 3, 4, 5],
-                [4, 2, 6, 7, 8],
-                [1, 4, 7, 8, 3]])
+  ```python
+  import numpy as np
+  
+  arr = np.array([[[1, 2, 3],
+                   [4, 5, 6]],
+                  [[1, 2, 3],
+                   [4, 5, 6]]])
+  
+  print(arr)
+  ```
 
-print(arr)
-```
-
-### 3-D Arrays
-```
-import numpy as np
-
-arr = np.array([[[1, 2, 3],
-                 [4, 5, 6]],
-                [[1, 2, 3],
-                 [4, 5, 6]]])
-
-print(arr)
-```
+</details>
 
 ### Checking Array Dimensions
 To check the dimension of a NumPy array, we can use the following built-in function, `ndim`:
-```
-ndarray.ndim  #Returns integer with the number of dimensions of the NumPy array
+```python
+import numpy as np
+
+# We can create a NumPy array from a tuple
+arr = np.array((1,2,3,4,5))
+
+print(arr)
+print(arr.ndim) # prints 1, since arr has 1 dimension
 ```
 
 ### Practice
@@ -89,7 +111,7 @@ Question: Create 4 NumPy arrays, each with different dimensions. Print the dimen
 <details>
   <summary><h4>Suggested Solution</h4></summary>
 
-  ```
+  ```python
   import numpy as np
 
   a = np.array(42)
