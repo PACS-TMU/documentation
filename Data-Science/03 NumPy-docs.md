@@ -126,7 +126,7 @@ Question: Create 4 NumPy arrays, each with different dimensions. Print the dimen
   ```
 
   Expected Output:
-  ```
+  ```python
   0
   1
   2
