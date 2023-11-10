@@ -110,7 +110,7 @@ print(arr.ndim) # prints 1, since arr has 1 dimension
 Question: Create 4 NumPy arrays, each with different dimensions. Print the dimensions of each, and check that the result is as expected.
 
 <details>
-  <summary><h4>Suggested Solution</h4></summary>
+  <summary>Suggested Solution</summary>
 
   ```python
   import numpy as np
