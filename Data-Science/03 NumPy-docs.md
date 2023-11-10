@@ -17,7 +17,7 @@ To import NumPy, we can add the following line of code at the top of our Python 
 ```python
 import numpy as np
 ```
->Note: The import statement above only works if you have installed NumPy. To install NumPy, follow the tutorial in the <a href="#" onclick='window.open("https://github.com/PACS-TMU/documentation/blob/main/Data-Science/00%20getting-started.md#section-3-installing-numpy-and-pandas---pip");return false;'>getting started doc</a>.
+>Note: The import statement above only works if you have installed NumPy. To install NumPy, follow the tutorial in the <a href="https://github.com/PACS-TMU/documentation/blob/main/Data-Science/00%20getting-started.md#section-3-installing-numpy-and-pandas---pip" target="_blank">getting started doc</a>.
 
 To create our first NumPy ndarray, we can run the following:
 ```python
