@@ -6,6 +6,7 @@ This documentation covers basic NumPy concepts and helps you get started with us
 ## Quick Links
 #### [What is NumPy - Quick Summary](#what-is-numpy---quick-summary-1)
 #### [Importing NumPy - Creating your First NumPy Array](#importing-numpy---creating-your-first-numpy-array-1)
+#### [Indexing NumPy Arrays](#indexing-numpy-arrays-1)
 #### [Common NumPy Functions](#common-numpy-functions-1)
 
 ## What is Numpy - Quick Summary
@@ -134,5 +135,7 @@ Question: Create 4 NumPy arrays, each with different dimensions. Print the dimen
   ```
 
 </details>
+
+## Indexing NumPy Arrays
 
 ## Common NumPy Functions
