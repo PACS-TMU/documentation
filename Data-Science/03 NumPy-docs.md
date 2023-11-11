@@ -38,7 +38,7 @@ The expected output is:
 When using NumPy, we usually work with multi-dimensional arrays. Therefore, it's helpful to see how we can create NumPy arrays of different dimensions.
 
 <details>
-  <summary><h3>0-D Arrays</h3></summary>
+  <summary>0-D Arrays</summary>
 
   ```python
   import numpy as np
@@ -51,7 +51,7 @@ When using NumPy, we usually work with multi-dimensional arrays. Therefore, it's
 </details>
 
 <details>
-  <summary><h3>1-D Arrays</h3></summary>
+  <summary>1-D Arrays</summary>
 
   ```python
   import numpy as np
@@ -64,7 +64,7 @@ When using NumPy, we usually work with multi-dimensional arrays. Therefore, it's
 </details>
 
 <details>
-  <summary><h3>2-D Arrays</h3></summary>
+  <summary>2-D Arrays</summary>
 
   ```python
   import numpy as np
@@ -79,7 +79,7 @@ When using NumPy, we usually work with multi-dimensional arrays. Therefore, it's
 </details>
 
 <details>
-  <summary><h3>3-D Arrays</h3></summary>
+  <summary>3-D Arrays</summary>
 
   ```python
   import numpy as np
