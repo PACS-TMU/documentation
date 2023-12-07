@@ -12,4 +12,22 @@ When contributing to a repository, we first want to clone it. To do so, follow t
    ```
    git clone <LINK-YOU-COPIED>  
    ```
- - Type the following two commands in your terminal/command prompt to open the cloned repository in 
+ - Type `ls` to find the exact name of the folder that was cloned (this will usually be the name of the GitHub repository.
+ - Type the following two commands in your terminal/command prompt to open the cloned repository in Visual Studio Code:
+   ```
+   cd <CLONED-FOLDER>
+   code .
+   ```
+  - Now you can make changes to the cloned repository
+
+## Making Changes and Pushing to GitHub Repository
+
+### Pulling Changes
+After you clone, you can make changes. It is important to keep your local repository clone up-to-date with the GitHub repository. To do that, run the following command regularly (e.g., at the beginning of each session):
+
+```
+git pull
+```
+
+### Branches
+
