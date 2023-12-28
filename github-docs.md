@@ -59,6 +59,12 @@ git push
 
 For your commit message, please make it a good balance between descriptive and short to tell us what changes you made to the code.
 
+When pushing for the first time, you might have to set your branch as the upstream branch (you will get an warning message, and your push would not be successful). This is because the branch you created is not yet up on GitHub (until you push for the first time). To solve this issue, you can run the following command instead of `git push`:
+```
+git push --set-upstream origin <NEW-BRANCH-NAME>
+```
+Note that you will only have to do this the first time you push from your new branch, and not constantly.
+
 The branch you are working on will now have all the updates on the GitHub website. To merge it to the dev/main branch, you need to make a pull request.
 
 ## Making a Pull Request
