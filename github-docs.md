@@ -7,17 +7,23 @@ When contributing to a repository, we first want to clone it. To do so, follow t
  - Open the repository on the GitHub website, and click on the `< > Code` green button.
  - Copy the link the is displayed.
  - Navigate to where you want to store your cloned repository.
- - Open your terminal/command prompt in this .
+ - Open your terminal/command prompt in this path.
  - Type the following:
    ```
    git clone <LINK-YOU-COPIED>  
    ```
  - Type `ls` to find the exact name of the folder that was cloned (this will usually be the name of the GitHub repository.
  - Type the following two commands in your terminal/command prompt to open the cloned repository in Visual Studio Code:
+
    ```
    cd <CLONED-FOLDER>
+   ```
+ - Next, open the directory you have navigated to with your previous command in your preferred IDE (Visual Studio Code is recommended for website development). This can be acheived by opening VSCode then navigating to `file`>`open folder` and then double click the website folder you cloned. Another way this could be achieved is by running the following in your terminal after you executed the `cd` command outlined in the previous step:
+
+   ```
    code .
    ```
+   
   - Now you can make changes to the cloned repository
 
 ## Making Changes and Pushing to GitHub Repository
